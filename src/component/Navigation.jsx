@@ -1,6 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { AiFillHome } from "react-icons/ai";
+import { GiSkills } from 'react-icons/gi'
 import ErrorBoundary from './ErrorBoundary';
 import './Style/nav.css'
 
@@ -9,7 +10,7 @@ const Navigation = () => {
         <div>
             <ErrorBoundary default>
                 <nav>
-                <ul className="flex flex-row">
+                <ul>
                     <NavLink to="/">
                         <li><AiFillHome/></li>
                     </NavLink>
@@ -17,11 +18,10 @@ const Navigation = () => {
                         <li>Mon CV</li>
                     </NavLink>
                     <NavLink to="/Competences">
-                        <li>Compétences</li>
+                        <li><GiSkills/>Compétences</li>
                     </NavLink>
                 </ul>
                 </nav>
-                
                 
             </ErrorBoundary>        
         </div>

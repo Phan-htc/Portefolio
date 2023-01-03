@@ -8,7 +8,7 @@ const Footer = () => {
     return (
         <div class="main">
             <div class="presentation">
-                <h3>Développeur Web</h3>
+                <h2>Développeur Web</h2>
                 <p>Développeur Web front & back-end, je suis à votre disposition pour répondre à tout type 
                     de projets de création de sites internet, de développement spécifique ou d'application web.
                     <br/>
@@ -16,7 +16,7 @@ const Footer = () => {
                     dans divers domaines.</p>
             </div>
             <div class="contact">
-                <h3>PHAN Charlie</h3>
+                <h2>PHAN Charlie</h2>
                 <GiPositionMarker/>
                 <div> 32 Avenue Léon Blum <br/>
                     31500 Toulouse</div>

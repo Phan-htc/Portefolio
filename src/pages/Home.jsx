@@ -5,8 +5,9 @@ const Home = () => {
     return (
         <div>
            <Navigation/>
+           <travolta/>
         </div>
     );
 };
 
-export default Home;<Navigation/>
+export default Home;

@@ -1,7 +1,5 @@
 import { React } from 'react';
-import './Style/Header.css'
-import Menu from './Menu';
-import Navigation from './Navigation';
+import './Style/Header.css';
 import { AiOutlineMail, AiFillLinkedin } from "react-icons/ai";
 
 // ancrage avec une image pour affectation lien vers github, Linkedin, Malt, etc
@@ -20,10 +18,7 @@ const header = () => {
                     <AiOutlineMail/>phan-htc@outlook.fr
                 </a>
             </div>      
-            <h1>Portefolio</h1>
-            
-            <Menu/>
-            <Navigation/>
+            <h1>Portefolio</h1> 
         </div>
     );
 };
