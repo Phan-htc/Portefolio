@@ -20,6 +20,9 @@ const Navigation = () => {
                     <NavLink to="/Competences">
                         <li><GiSkills/>Compétences</li>
                     </NavLink>
+                    <NavLink to="/Snake">
+                        <li>Snake</li>
+                    </NavLink>
                 </ul>
                 </nav>
                 

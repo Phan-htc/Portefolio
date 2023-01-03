@@ -9,8 +9,8 @@ import { AiOutlineMail, AiFillLinkedin } from "react-icons/ai";
 const header = () => {
 
     return (
-        <div class='primary'> 
-            <div class='Link'>
+        <div className='primary'> 
+            <div className='Link'>
                 <a href="https://www.linkedin.com/in/charlie-phan-542549196/">
                  <AiFillLinkedin/>Linkedin
                 </a>
