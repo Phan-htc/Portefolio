@@ -1,0 +1,11 @@
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+    font-family: 'Helvetica_Neue';
+    font-size: large;
+    font-weight: bolder;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}

@@ -1,0 +1,13 @@
+@font-face{
+    font-family: 'Helvetica_Neue';
+    src: url("../font/HELVETICANEUE.TTF");
+}
+@font-face{
+    font-family: 'Helvetica_Neue_BLK';
+    src: url("../font/HELVETICANEUELTSTD-BLK.OTF");
+}
+body{
+    background-image: url(../image/bg.jpg);
+    font-family: src= "HELVETICANEUE";
+}
+
